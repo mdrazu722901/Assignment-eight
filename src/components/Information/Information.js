@@ -9,8 +9,7 @@ import imageBoy from '../../Team Logo/download (6).jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFlag, faFutbol, faMars, faMapMarked} from '@fortawesome/free-solid-svg-icons';
 const Information = (props) => {
-    const { intFormedYear, strCountry, strTeam, strGender, strSport, strTeamBadge, strFacebook, strYoutube, strTwitter } = props.data;
-    const { src } = props.Image;
+    const { intFormedYear, strCountry, strTeam, strGender, strSport, strTeamBadge} = props.data;
     console.log(props.data);
     const too = "Male";
     let to;
