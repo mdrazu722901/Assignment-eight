@@ -13,7 +13,7 @@ const TeamDetails = () => {
             fetch(url)
             .then(res => res.json())
             .then(data => setTeam(data.teams))
-    },[])
+    },[id])
     console.log(team);
     const to = <img src="../../Team Logo/image 23.png" alt="" />
     return (
